@@ -1,6 +1,6 @@
 """
 app.py: AWS lambda to poll https://www.metaculus.com/questions/4470/ to determine when 
-https://www.metaculus.com/questions/3631/ closes.
+https://www.metaculus.com/questions/6547/ closes.
 
 Dependencies: an SNS topic to publish the closing notification, and the MinimumWageTrigger which periodically
 invokes this Lambda. When the closing condition is met, this Lambda will disable the MinimumWageTrigger.
